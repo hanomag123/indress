@@ -183,6 +183,22 @@ document.addEventListener("DOMContentLoaded", () => {
 
     return wrapper;
   }
+
+  new Swiper('.main-swiper', {
+    loop: true,
+    slidesPerView: 'auto',
+    speed: 400,
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+    },
+  })
+
+  new Swiper('.directory-swiper', {
+    loop: true,
+    slidesPerView: 'auto',
+    speed: 400,
+  })
 });
 
 

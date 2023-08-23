@@ -1,13 +1,28 @@
 @font-face {
-  font-family: "Inter";
-  src: url("../fonts/Inter-Black.woff2") format("woff2"),
-    url("../fonts/Inter-Black.woff") format("woff");
+  font-family: "TT Norms Pro";
+  src: url("../fonts/TTNormsPro-Medium.woff2") format("woff2"),
+    url("../fonts/TTNormsPro-Medium.woff") format("woff");
+    font-weight: 500;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "InterReg";
-  src: url("../fonts/Inter-Regular.woff2") format("woff2"),
-    url("../fonts/Inter-Regular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
+  font-family: "TT Norms Pro";
+  src: url("../fonts/TTNormsPro-Regular.woff2") format("woff2"),
+    url("../fonts/TTNormsPro-Regular.woff") format("woff");
+    font-weight: 400;
+    font-display: swap;
 }
+
+
+@font-face {
+  font-family: "TT Norms Pro";
+  src: url("../fonts/TTNormsPro-Light.woff2") format("woff2"),
+    url("../fonts/TTNormsPro-Light.woff") format("woff");
+    font-weight: 300;
+    font-display: swap;
+}
+
+
+
+
